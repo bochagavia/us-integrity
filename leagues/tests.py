@@ -1,7 +1,7 @@
 from django.test import TestCase
 from leagues.models import Leagues, Teams
 
-# Create your tests here.
+
 class TestListLeaguesView(TestCase):
     def setUp(self):
         for i in range(4):

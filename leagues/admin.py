@@ -1,8 +1,6 @@
 from django.contrib import admin
-
 from leagues.models import Leagues, Teams
 
-# Register your models here.
 
 class TeamsAdmin(admin.StackedInline):
     model = Teams
