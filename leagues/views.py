@@ -1,20 +1,26 @@
+import logging
+import traceback
 from django.shortcuts import render, redirect
 from leagues.models import Leagues
 
 
 def index(request):
-    leagues = Leagues.objects.all()
-    context = {'leagues': []}
+    try:
+        leagues = Leagues.objects.all()
+        context = {'leagues': []}
 
-    for league in leagues:
-        context['leagues'].append({
-            'abbr': league.abbr,
-            'name': league.name,
-            'id': league.id,
-            'teams': [{'name': team.name, 'abbr': team.abbr} for team in league.teams_set.all()]
-        })
+        for league in leagues:
+            context['leagues'].append({
+                'abbr': league.abbr,
+                'name': league.name,
+                'id': league.id,
+                'teams': [{'name': team.name, 'abbr': team.abbr} for team in league.teams_set.all()]
+            })
 
-    return render(request, 'list_leagues.html', context=context)
+        return render(request, 'list_leagues.html', context=context)
+    except Exception as e:
+        logging.error(traceback.format_exc())
+        return render(request, 'error.html', context=context)
 
 
 def handler404(request, *args, **argv):
@@ -22,4 +28,4 @@ def handler404(request, *args, **argv):
 
 
 def handler500(request, *args, **argv):
-    return redirect('/')
+    return render(request, 'error.html')
