@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from leagues.models import Leagues
 
 
@@ -15,3 +15,11 @@ def index(request):
         })
 
     return render(request, 'list_leagues.html', context=context)
+
+
+def handler404(request, *args, **argv):
+    return redirect('/')
+
+
+def handler500(request, *args, **argv):
+    return redirect('/')
