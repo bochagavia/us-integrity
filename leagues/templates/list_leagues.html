@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        {% for league in leagues %}
+            <p>{{ league.name }} ({{league.abbr}})</p>
+            {% for team in league.teams %}
+                <li>{{ team.name }} ({{team.abbr}})</li>
+            {% endfor %}
+        {% endfor %}
+    </body>
+</html>

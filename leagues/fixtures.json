@@ -1,0 +1,1150 @@
+[
+    {
+        "model": "leagues.leagues",
+        "pk": 3,
+        "fields": {
+            "abbr": "NBA",
+            "name": "National Basketball Association"
+        }
+    },
+    {
+        "model": "leagues.leagues",
+        "pk": 7,
+        "fields": {
+            "abbr": "NHL",
+            "name": "National Hockey League"
+        }
+    },
+    {
+        "model": "leagues.leagues",
+        "pk": 1,
+        "fields": {
+            "abbr": "NFL",
+            "name": "National Football League"
+        }
+    },
+    {
+        "model": "leagues.leagues",
+        "pk": 5,
+        "fields": {
+            "abbr": "MLB",
+            "name": "Major League Baseball"
+        }
+    },
+    {
+        "model": "leagues.teams",
+        "pk": 1,
+        "fields": {
+          "abbr": "ANA",
+          "name": "Anaheim Ducks",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 2,
+        "fields": {
+          "abbr": "ARZ",
+          "name": "Arizona Cardinals",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 3,
+        "fields": {
+          "abbr": "ARI",
+          "name": "Arizona Coyotes",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 4,
+        "fields": {
+          "abbr": "ARI",
+          "name": "Arizona Diamondbacks",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 5,
+        "fields": {
+          "abbr": "ATL",
+          "name": "Atlanta Braves",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 6,
+        "fields": {
+          "abbr": "ATL",
+          "name": "Atlanta Falcons",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 7,
+        "fields": {
+          "abbr": "ATL",
+          "name": "Atlanta Hawks",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 8,
+        "fields": {
+          "abbr": "BAL",
+          "name": "Baltimore Orioles",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 9,
+        "fields": {
+          "abbr": "BAL",
+          "name": "Baltimore Ravens",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 10,
+        "fields": {
+          "abbr": "BOS",
+          "name": "Boston Bruins",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 11,
+        "fields": {
+          "abbr": "BOS",
+          "name": "Boston Celtics",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 12,
+        "fields": {
+          "abbr": "BOS",
+          "name": "Boston Red Sox",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 13,
+        "fields": {
+          "abbr": "BRK",
+          "name": "Brooklyn Nets",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 14,
+        "fields": {
+          "abbr": "BUF",
+          "name": "Buffalo Bills",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 15,
+        "fields": {
+          "abbr": "BUF",
+          "name": "Buffalo Sabres",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 16,
+        "fields": {
+          "abbr": "CAL",
+          "name": "Calgary Flames",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 17,
+        "fields": {
+          "abbr": "CAR",
+          "name": "Carolina Hurricanes",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 18,
+        "fields": {
+          "abbr": "CAR",
+          "name": "Carolina Panthers",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 19,
+        "fields": {
+          "abbr": "CHA",
+          "name": "Charlotte Hornets",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 20,
+        "fields": {
+          "abbr": "CHI",
+          "name": "Chicago Bears",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 21,
+        "fields": {
+          "abbr": "CHI",
+          "name": "Chicago Blackhawks",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 22,
+        "fields": {
+          "abbr": "CHI",
+          "name": "Chicago Bulls",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 23,
+        "fields": {
+          "abbr": "CUB",
+          "name": "Chicago Cubs",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 24,
+        "fields": {
+          "abbr": "CWS",
+          "name": "Chicago White Sox",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 25,
+        "fields": {
+          "abbr": "CIN",
+          "name": "Cincinnati Bengals",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 26,
+        "fields": {
+          "abbr": "CIN",
+          "name": "Cincinnati Reds",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 27,
+        "fields": {
+          "abbr": "CLE",
+          "name": "Cleveland Browns",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 28,
+        "fields": {
+          "abbr": "CLE",
+          "name": "Cleveland Cavaliers",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 29,
+        "fields": {
+          "abbr": "CLE",
+          "name": "Cleveland Guardians",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 30,
+        "fields": {
+          "abbr": "COL",
+          "name": "Colorado Avalanche",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 31,
+        "fields": {
+          "abbr": "COL",
+          "name": "Colorado Rockies",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 32,
+        "fields": {
+          "abbr": "CLM",
+          "name": "Columbus Blue Jackets",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 33,
+        "fields": {
+          "abbr": "DAL",
+          "name": "Dallas Cowboys",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 34,
+        "fields": {
+          "abbr": "DAL",
+          "name": "Dallas Mavericks",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 35,
+        "fields": {
+          "abbr": "DAL",
+          "name": "Dallas Stars",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 36,
+        "fields": {
+          "abbr": "DEN",
+          "name": "Denver Broncos",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 37,
+        "fields": {
+          "abbr": "DEN",
+          "name": "Denver Nuggets",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 38,
+        "fields": {
+          "abbr": "DET",
+          "name": "Detroit Lions",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 39,
+        "fields": {
+          "abbr": "DET",
+          "name": "Detroit Pistons",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 40,
+        "fields": {
+          "abbr": "DET",
+          "name": "Detroit Red Wings",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 41,
+        "fields": {
+          "abbr": "DET",
+          "name": "Detroit Tigers",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 42,
+        "fields": {
+          "abbr": "EDM",
+          "name": "Edmonton Oilers",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 43,
+        "fields": {
+          "abbr": "FLA",
+          "name": "Florida Panthers",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 44,
+        "fields": {
+          "abbr": "GS",
+          "name": "Golden State Warriors",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 45,
+        "fields": {
+          "abbr": "GB",
+          "name": "Green Bay Packers",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 46,
+        "fields": {
+          "abbr": "HOU",
+          "name": "Houston Astros",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 47,
+        "fields": {
+          "abbr": "HOU",
+          "name": "Houston Rockets",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 48,
+        "fields": {
+          "abbr": "HOU",
+          "name": "Houston Texans",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 49,
+        "fields": {
+          "abbr": "IND",
+          "name": "Indiana Pacers",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 50,
+        "fields": {
+          "abbr": "IND",
+          "name": "Indianapolis Colts",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 51,
+        "fields": {
+          "abbr": "JAC",
+          "name": "Jacksonville Jaguars",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 52,
+        "fields": {
+          "abbr": "KC",
+          "name": "Kansas City Chiefs",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 53,
+        "fields": {
+          "abbr": "KAN",
+          "name": "Kansas City Royals",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 54,
+        "fields": {
+          "abbr": "LAA",
+          "name": "Los Angeles Angels",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 55,
+        "fields": {
+          "abbr": "LAC",
+          "name": "Los Angeles Chargers",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 56,
+        "fields": {
+          "abbr": "LAC",
+          "name": "Los Angeles Clippers",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 57,
+        "fields": {
+          "abbr": "LAD",
+          "name": "Los Angeles Dodgers",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 58,
+        "fields": {
+          "abbr": "LAK",
+          "name": "Los Angeles Kings",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 59,
+        "fields": {
+          "abbr": "LAK",
+          "name": "Los Angeles Lakers",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 60,
+        "fields": {
+          "abbr": "LAR",
+          "name": "Los Angeles Rams",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 61,
+        "fields": {
+          "abbr": "MEM",
+          "name": "Memphis Grizzlies",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 62,
+        "fields": {
+          "abbr": "MIA",
+          "name": "Miami Dolphins",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 63,
+        "fields": {
+          "abbr": "MIA",
+          "name": "Miami Heat",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 64,
+        "fields": {
+          "abbr": "MIA",
+          "name": "Miami Marlins",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 65,
+        "fields": {
+          "abbr": "MIL",
+          "name": "Milwaukee Brewers",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 66,
+        "fields": {
+          "abbr": "MLW",
+          "name": "Milwaukee Bucks",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 67,
+        "fields": {
+          "abbr": "MIN",
+          "name": "Minnesota Timberwolves",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 68,
+        "fields": {
+          "abbr": "MIN",
+          "name": "Minnesota Twins",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 69,
+        "fields": {
+          "abbr": "MIN",
+          "name": "Minnesota Vikings",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 70,
+        "fields": {
+          "abbr": "MIN",
+          "name": "Minnesota Wild",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 71,
+        "fields": {
+          "abbr": "MON",
+          "name": "Montreal Canadiens",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 72,
+        "fields": {
+          "abbr": "NAS",
+          "name": "Nashville Predators",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 73,
+        "fields": {
+          "abbr": "NE",
+          "name": "New England Patriots",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 74,
+        "fields": {
+          "abbr": "NJD",
+          "name": "New Jersey Devils",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 75,
+        "fields": {
+          "abbr": "NO",
+          "name": "New Orleans Pelicans",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 76,
+        "fields": {
+          "abbr": "NO",
+          "name": "New Orleans Saints",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 77,
+        "fields": {
+          "abbr": "NYG",
+          "name": "New York Giants",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 78,
+        "fields": {
+          "abbr": "NYI",
+          "name": "New York Islanders",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 79,
+        "fields": {
+          "abbr": "NYJ",
+          "name": "New York Jets",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 80,
+        "fields": {
+          "abbr": "NY",
+          "name": "New York Knicks",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 81,
+        "fields": {
+          "abbr": "NYM",
+          "name": "New York Mets",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 82,
+        "fields": {
+          "abbr": "NYR",
+          "name": "New York Rangers",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 83,
+        "fields": {
+          "abbr": "NYY",
+          "name": "New York Yankees",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 84,
+        "fields": {
+          "abbr": "OAK",
+          "name": "Oakland Athletics",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 85,
+        "fields": {
+          "abbr": "OAK",
+          "name": "Oakland Raiders",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 86,
+        "fields": {
+          "abbr": "OKC",
+          "name": "Oklahoma City Thunder",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 87,
+        "fields": {
+          "abbr": "ORL",
+          "name": "Orlando Magic",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 88,
+        "fields": {
+          "abbr": "OTT",
+          "name": "Ottawa Senators",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 89,
+        "fields": {
+          "abbr": "PHI",
+          "name": "Philadelphia 76ers",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 90,
+        "fields": {
+          "abbr": "PHI",
+          "name": "Philadelphia Eagles",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 91,
+        "fields": {
+          "abbr": "PHI",
+          "name": "Philadelphia Flyers",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 92,
+        "fields": {
+          "abbr": "PHI",
+          "name": "Philadelphia Phillies",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 93,
+        "fields": {
+          "abbr": "PHO",
+          "name": "Phoenix Suns",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 94,
+        "fields": {
+          "abbr": "PIT",
+          "name": "Pittsburgh Penguins",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 95,
+        "fields": {
+          "abbr": "PIT",
+          "name": "Pittsburgh Pirates",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 96,
+        "fields": {
+          "abbr": "PIT",
+          "name": "Pittsburgh Steelers",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 97,
+        "fields": {
+          "abbr": "POR",
+          "name": "Portland Trail Blazers",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 98,
+        "fields": {
+          "abbr": "SAC",
+          "name": "Sacramento Kings",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 99,
+        "fields": {
+          "abbr": "SA",
+          "name": "San Antonio Spurs",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 100,
+        "fields": {
+          "abbr": "SDG",
+          "name": "San Diego Padres",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 101,
+        "fields": {
+          "abbr": "SF",
+          "name": "San Francisco 49ers",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 102,
+        "fields": {
+          "abbr": "SFO",
+          "name": "San Francisco Giants",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 103,
+        "fields": {
+          "abbr": "SAN",
+          "name": "San Jose Sharks",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 104,
+        "fields": {
+          "abbr": "SEA",
+          "name": "Seattle Kraken",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 105,
+        "fields": {
+          "abbr": "SEA",
+          "name": "Seattle Mariners",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 106,
+        "fields": {
+          "abbr": "SEA",
+          "name": "Seattle Seahawks",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 107,
+        "fields": {
+          "abbr": "STL",
+          "name": "St. Louis Blues",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 108,
+        "fields": {
+          "abbr": "STL",
+          "name": "St. Louis Cardinals",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 109,
+        "fields": {
+          "abbr": "TB",
+          "name": "Tampa Bay Buccaneers",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 110,
+        "fields": {
+          "abbr": "TAM",
+          "name": "Tampa Bay Lightning",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 111,
+        "fields": {
+          "abbr": "TAM",
+          "name": "Tampa Bay Rays",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 112,
+        "fields": {
+          "abbr": "TEN",
+          "name": "Tennessee Titans",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 113,
+        "fields": {
+          "abbr": "TEX",
+          "name": "Texas Rangers",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 114,
+        "fields": {
+          "abbr": "TOR",
+          "name": "Toronto Blue Jays",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 115,
+        "fields": {
+          "abbr": "TOR",
+          "name": "Toronto Maple Leafs",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 116,
+        "fields": {
+          "abbr": "TOR",
+          "name": "Toronto Raptors",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 117,
+        "fields": {
+          "abbr": "UTA",
+          "name": "Utah Jazz",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 118,
+        "fields": {
+          "abbr": "VAN",
+          "name": "Vancouver Canucks",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 119,
+        "fields": {
+          "abbr": "LAS",
+          "name": "Vegas Golden Knights",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 120,
+        "fields": {
+          "abbr": "WAS",
+          "name": "Washington Capitals",
+          "league": 7
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 121,
+        "fields": {
+          "abbr": "WAS",
+          "name": "Washington Commanders",
+          "league": 1
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 122,
+        "fields": {
+          "abbr": "WAS",
+          "name": "Washington Nationals",
+          "league": 5
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 123,
+        "fields": {
+          "abbr": "WAS",
+          "name": "Washington Wizards",
+          "league": 3
+        }
+      },
+      {
+        "model": "leagues.teams",
+        "pk": 124,
+        "fields": {
+          "abbr": "WIN",
+          "name": "Winnipeg Jets",
+          "league": 7
+        }
+      }
+]
