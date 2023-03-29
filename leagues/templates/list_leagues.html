@@ -1,12 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <body>
+{% extends "base.html" %}
 
+{% block content %}
+    <div class="accordion" id="accordionExample">
         {% for league in leagues %}
-            <p>{{ league.name }} ({{league.abbr}})</p>
-            {% for team in league.teams %}
-                <li>{{ team.name }} ({{team.abbr}})</li>
-            {% endfor %}
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-{{ league.id }}">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ league.id }}" aria-expanded="true" aria-controls="collapse-{{ league.id }}">
+                        {{ league.name }} ({{league.abbr}})
+                    </button>
+                </h2>
+                <div id="collapse-{{ league.id }}" class="accordion-collapse collapse show" aria-labelledby="heading-{{ league.id }}" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        {% for team in league.teams %}
+                            <li>{{ team.name }} ({{team.abbr}})</li>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         {% endfor %}
-    </body>
-</html>
+    </div>
+    
+{% endblock %}

@@ -10,6 +10,7 @@ def index(request):
         context['leagues'].append({
             'abbr': league.abbr,
             'name': league.name,
+            'id': league.id,
             'teams': [{'name': team.name, 'abbr': team.abbr} for team in league.teams_set.all()]
         })
 
